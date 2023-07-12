@@ -34,7 +34,7 @@ You should see the object in namespace 'kube-system' with a name beginning with:
     ```  
 
 5. Artificial CPU load simulation:
- - Login to POD from Point 1
+ - Login to POD from deployment that you created
     ```
     kubectl exec -it <nazwa_pod> /bin/bash
     ```
